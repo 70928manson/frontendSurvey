@@ -1,0 +1,27 @@
+.title{
+    width: 300px;
+    margin: auto;
+  /*   background-color: red; */
+  }
+  
+  .sub--title{
+    width: 300px;
+    margin: auto;
+  /*   background-color: red; */
+  }
+
+  #caseSalaryChart {
+      width: 99%;
+  }
+
+  #Gaming_eCommerceIndustryChart{
+      width: 99%;
+  }
+
+  #genderChart{
+      width: 99%;
+  }
+
+  #salaryDistributed{
+      width: 99%;
+  }

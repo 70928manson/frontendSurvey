@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+
+</head>
+<body>
+    <div>
+      <h1 class="title">前端工程師調查表</h1>
+      <div class="sub--title">
+        <a href="https://raw.githubusercontent.com/hexschool/2021-ui-frontend-job/master/frontend_data.json?token=AAQWFQDSNRRXC6FBW7PDSETBOESVW">資料來源:2021前端產業、薪水調查表</a><br>
+      </div>
+    </div>
+    
+    
+    <h2>1. 任職於接案公司的薪資滿意度分布</h2>
+    <div id ="caseSalaryChart"></div>
+    
+    <h2>2. 博弈、電商公司兩個產業滿意度的平均分數</h2>
+    <div id ="Gaming_eCommerceIndustryChart"></div>
+    
+    <h2>3. 前端工程師男性跟女性比例</h2>
+    <div id ="genderChart"></div>
+    
+    <h2>4. 前端工程師薪水區間</h2>
+    <div id = "salaryDistributed"></div>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.18/c3.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.18/c3.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<!-- https://raw.githubusercontent.com/hexschool/2021-ui-frontend-job/master/frontend_data.json?token=AAQWFQDSNRRXC6FBW7PDSETBOESVW -->
+    <script src="survey.js"></script>
+</body>
+</html>
